@@ -1,0 +1,54 @@
+.navBar__header,
+.navBar__footer {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(122, 206, 167);
+    height: 5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar__ul {
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navBar__li {
+    color: white;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.navBar li:hover {
+    color: rgb(81, 82, 80);
+}
+
+.navBar a:active {
+    color: greenyellow;
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.navBar__name {
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+
+.navBar__name img {
+    max-width: 100%;
+    max-height: 4.9em;
+}
+
+.navBar__footer {
+    position: fixed;
+    bottom: 0;
+    height: 2em;
+}
